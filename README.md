@@ -79,12 +79,12 @@ accurate algorithm , finally after all of that we tried the best suitable algori
 prediction accurately is Naive Bayes Classifier. And developed it to use as a real time prediction
 probelm for the visa status prediction.
 3.2 Software Designing
-# 1. Jupyter Notebook Environment
-# 2. Spyder Ide
-# 3. Machine Learning Algorithms
-# 4. Python (pandas, numpy, matplotlib, seaborn, sklearn)
-# 5. HTML
-# 6. Flask
+### 1. Jupyter Notebook Environment
+### 2. Spyder Ide
+### 3. Machine Learning Algorithms
+### 4. Python (pandas, numpy, matplotlib, seaborn, sklearn)
+### 5. HTML
+### 6. Flask
 We developed this Visa Approval status prediction by using the Python language which is
 a interpreted and high level programming language and using the Machine Learning algorithms.
 for coding we used the Jupyter Notebook environment of the Anaconda distributions and the
