@@ -1,5 +1,7 @@
-#VISA APPROVAL PREDICTION
+VISA APPROVAL PREDICTION
+
 Using Naive Bayes Classifier
+
 Developed by: Vivek Gupta
 
 Smart Bridge-Remote Summer Internship Program
