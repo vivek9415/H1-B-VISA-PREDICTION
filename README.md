@@ -1,11 +1,13 @@
-VISA APPROVAL PREDICTION
+# VISA APPROVAL PREDICTION
 
-Using Naive Bayes Classifier
+# Using Naive Bayes Classifier
 
-Developed by: Vivek Gupta
+# Developed by:  Vivek Gupta
 
-Smart Bridge-Remote Summer Internship Program
-1. INTRODUCTION
+## Smart Bridge-Remote Summer Internship Program
+
+#  INTRODUCTION
+
 In our project, we aim to predict the outcome of H-1B visa applications that
 are filed by many high-skilled foreign nationals every year. We framed the problem as a
 classification problem and applied Naive Bayes, SVM in order to output a predicted case status
@@ -32,7 +34,7 @@ NaiveBayes machine learning algorithm.
 And in the end, to predict whether the Visa applicant can replay the Visa or not using voting
 ensemble techniques of combining the predictions from multiple machine learning algorithms
 and withdrawing the conclusions.
-2. LITERATURE SURVEY
+# LITERATURE SURVEY
 Data mining is the process of analyzing data from different perspectives and extracting
 useful knowledge from it. It is the core of knowledge discovery process. The various steps
 involved in extracting knowledge from raw data as depicted in figure-1. Different data mining
@@ -60,7 +62,7 @@ take a loan and how often does he pays the loan interest amount to the bank.
 Basically this model will give the predicted value when a customer with details will pay
 the loan back to bank, by just taking some necessary details of the customer in real time, and
 those details will be collected by bank employee within minutes.
-3. THEORETICAL ANALYSIS
+# THEORETICAL ANALYSIS
 While selecting the algorithm that gives an accurate prediction we gone through lot of
 algorithms which gives the results abruptly accurate and from them we selected only one
 algorithm for the prediction problem that is Naive Bayes Classifier, it assumes that the presence
@@ -77,12 +79,12 @@ accurate algorithm , finally after all of that we tried the best suitable algori
 prediction accurately is Naive Bayes Classifier. And developed it to use as a real time prediction
 probelm for the visa status prediction.
 3.2 Software Designing
-1. Jupyter Notebook Environment
-2. Spyder Ide
-3. Machine Learning Algorithms
-4. Python (pandas, numpy, matplotlib, seaborn, sklearn)
-5. HTML
-6. Flask
+# 1. Jupyter Notebook Environment
+# 2. Spyder Ide
+# 3. Machine Learning Algorithms
+# 4. Python (pandas, numpy, matplotlib, seaborn, sklearn)
+# 5. HTML
+# 6. Flask
 We developed this Visa Approval status prediction by using the Python language which is
 a interpreted and high level programming language and using the Machine Learning algorithms.
 for coding we used the Jupyter Notebook environment of the Anaconda distributions and the
@@ -93,7 +95,7 @@ particular tools or libraries. It has no database abstraction layer, form valida
 components where pre-existing third-party libraries provide common functions, and a scripting
 language to create a webpage is HTML by creating the templates to use in th functions of the
 Flask and HTML.
-4. EXPERIMENTAL INVESTIGATION
+# EXPERIMENTAL INVESTIGATION
 In this paper, the dataset we used is derived from H-1B_Kaggle .It contains more than
 10L H-1B Visa data of users .It contained 7 features and 1 label which can be examined
 attributes. Those attributes were shown below in the screenshot of the data set we used.
@@ -127,9 +129,8 @@ version of dev and test sets were both unbalanced, each consisting of 400K examp
 specifically, around 90% of the examples had a ”CERTIFIED” label, mimicking the nature of the
 original dataset. Second version of dev and test sets were manually balanced by sampling
 ”CERTIFIED” labeled examples roughly equal to the number of ”DENIED” labeled examples.
-5. Process Flow of Project
-6. FLOW CHART
-7. RESULT
+
+# RESULT
 In this paper, the Naive Bayes algorithm is used to predict its performance, and compared
 with another machine learning methods namely the decision tree, the logistic regression and the
 SVM. The obtained results are displayed in Table below. The results show that, the performance
@@ -150,11 +151,11 @@ Disadvantages:
 2. Extensions.
 3. Due to lottery process,there are strict dates the must be adhgered to during process.
 4. Fees.
-9. CONCLUSION
+# CONCLUSION
 Inorder to predict the outcome of H-1B visa applications based on the attributes of the
 applicant ,several machine learning models like SVM, Naive Bayes can be used.
 Finally,this can be integrated to a web appliction.
-10. FUTURE SCOPE
+# FUTURE SCOPE
 In further Naive Bayes algorithm can be applied on other data sets available for visa approvals to
 further investigate its accuracy. A rigorous analysis of other machine learning algorithms other
 than these six can also be done in future to investigate the power of machine learning algorithms
